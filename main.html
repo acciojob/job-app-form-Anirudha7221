@@ -4,18 +4,18 @@
 
 <head>
 	<form method="POST">
-		<label for="name">1.Name:</label>
+		<label for="name">Name</label>
 		<input type="text" id="name" required>
 		<br><br>
-		<label for="email">2.Email</label>
+		<label for="email">Email</label>
 		<input type="email" id="email" required>
 		<br><br>
-		<label for="gender" required>3.Gender</label>
+		<label for="gender" required>Gender</label>
 		<input type="radio" name="gender">Male
 		<input type="radio" name="gender">Female
 		<input type="radio" name="gender">Other	
 		<br><br>
-		<label for="laptop">4.Laptops Brands</label>
+		<label for="laptop">Laptops Brands</label>
 		<select id="laptop" name="laptop">
 			<option value="" disabled selected>--Please choose an option--</option>
 			<option>Apple</option>
@@ -23,16 +23,19 @@
 			<option>HP</option>
 		</select>	
 		<br><br>
-		<label for="age">5.Age</label>
+		<label for="age">Age</label>
 		<input type="number" id="age" required>
 		<br><br>
-		<label for="dob">6.DOB</label>
+		<label for="portfolio">Portfolio</label>
+		<input type="url" name="portfolio" id="portfolio">
+		<br><br>
+		<label for="dob">DOB</label>
 		<input type="datetime-local" id="dob" required>
 		<br><br>
-		<label for="password">7.Password</label>
+		<label for="password">Password</label>
 		<input type="password" id="password" required>
 		<br><br>
-		<button value="submit">8.Submit button.</button>
+		<button value="submit">Submit</button>
 	</form>
 	<link rel="stylesheet" href="styles.css">
 </head>
